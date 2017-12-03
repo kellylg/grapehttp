@@ -119,6 +119,7 @@ disable     Disable users
 ### 其它命令
 
 ```
+completion  Output shell completion code for the specified shell (bash or zsh)
 finfo       Get http server basic information
 help        Help about any command
 version     Print the client and server version information
