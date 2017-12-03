@@ -66,12 +66,10 @@ cp client/config.yaml ~/.grape/
 ### 二进制安装
 
 1. 下载二进制文件：fctl 和 grapehttp
-
 2. 启动grapehttp
 ```
 ./grapehttp -c httpconfig.yaml
 ```
-
 3. 执行`./fctl -h`获取客户端fctl工具使用帮助
 
 
