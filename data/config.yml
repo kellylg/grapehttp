@@ -1,0 +1,7 @@
+---
+addr: ":4000"
+title: "hello world"
+theme: green
+debug: true
+xheaders: true
+cors: true

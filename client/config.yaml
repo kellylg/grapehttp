@@ -1,0 +1,5 @@
+server: localhost:6664 # http server的地址和端口
+timeout: 2 # 连接http server的超时时间
+username: admin # http server注册的用户名
+password: admin # http server注册的密码
+cool: true # 上传和下载时会有进度条显示

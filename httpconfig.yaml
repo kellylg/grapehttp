@@ -1,0 +1,26 @@
+---
+addr: ":6664"   # http server的绑定地址和端口
+title: "Grape File Server" # http server的web页面显示名字
+theme: green # http server web页面的样式
+debug: true # 是否启用debug模式, debug模式：1. 打印配置文件内容 
+            # 2. 每一次用户执行fctl命令都会记录在数据库中(主要是看下工具使用频率)
+xheaders: true
+cors: true
+upload: true # 所有用户是否有上传权限(服务器根目录)
+delete: true # 所有用户是否有删除权限(服务器根目录)
+noaccess: false # 所有用户是否被禁止访问(服务器根目录)
+admin_username: admin # 管理员用户名
+admin_password: admin # 管理员密码
+admin_email: lkong@tencent.com # 管理员email地址
+#root: /home/lkong/fileserver # http server的根目录
+simpleauth: true # 权限校验码方式，true仅检查用户名:密码是否和auth.http一致, 
+                  # false会检查数据库中注册的用户名和密码是否一致
+rbac:
+  db_host: xx.xxx.x.xx
+  db_port: 3306
+  db_user: "xxxxxx"
+  db_pass: "xxxxxx"
+  db_name: "caj"
+auth:
+  type: http
+  http: admin:admin # http校验方式的用户名和密码

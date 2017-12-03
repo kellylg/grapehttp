@@ -1,0 +1,14 @@
+---
+upload: false
+delete: false
+noaccess: false
+users:
+- username: "lkong"
+  delete: true
+  upload: true
+  noaccess: false
+accessTables:
+- regex: block.file
+  allow: false
+- regex: visual.file
+  allow: true
